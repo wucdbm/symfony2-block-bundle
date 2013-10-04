@@ -1,0 +1,13 @@
+{
+    "name": "sirian/symfony2-block-bundle",
+    "type": "library",
+    "description": "symfony2 block bundle",
+    "keywords": [],
+    "autoload": {
+        "psr-0": { "Sirian\\BlockBundle\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/symfony": ">=2.3.0"
+    }
+}

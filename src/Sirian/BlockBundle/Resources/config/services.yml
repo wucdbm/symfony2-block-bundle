@@ -1,0 +1,10 @@
+services:
+    sirian_block.registry:
+        class: Sirian\BlockBundle\Block\Registry
+        arguments: [@service_container]
+
+    sirian_block.block_extension:
+        class: Sirian\BlockBundle\Twig\Extension\BlockExtension
+        arguments: [@sirian_block.registry]
+        tags:
+            - { name: twig.extension }
